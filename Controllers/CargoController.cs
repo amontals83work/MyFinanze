@@ -27,36 +27,36 @@ namespace MyFinanzeAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Cargo>> GetCargo(int id)
         {
-            var prueba = await _context.Cargos.FindAsync(id);
+            var cargo = await _context.Cargos.FindAsync(id);
 
-            if (prueba == null)
+            if (cargo == null)
             {
                 return NotFound();
             }
 
-            return prueba;
+            return cargo;
         }
 
         // POST: api/Cargos
         [HttpPost]
-        public async Task<ActionResult<Cargo>> PostCargos(Cargo prueba)
+        public async Task<ActionResult<Cargo>> PostCargos(Cargo cargo)
         {
-            _context.Cargos.Add(prueba);
+            _context.Cargos.Add(cargo);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetCargo), new { id = prueba.Id }, prueba);
+            return CreatedAtAction(nameof(GetCargo), new { id = cargo.Id }, cargo);
         }
 
         // PUT: api/Cargos/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCargos(int id, Cargo prueba)
+        public async Task<IActionResult> PutCargos(int id, Cargo cargo)
         {
-            if (id != prueba.Id)
+            if (id != cargo.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(prueba).State = EntityState.Modified;
+            _context.Entry(cargo).State = EntityState.Modified;
 
             try
             {
@@ -81,13 +81,13 @@ namespace MyFinanzeAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCargos(int id)
         {
-            var prueba = await _context.Cargos.FindAsync(id);
-            if (prueba == null)
+            var cargo = await _context.Cargos.FindAsync(id);
+            if (cargo == null)
             {
                 return NotFound();
             }
 
-            _context.Cargos.Remove(prueba);
+            _context.Cargos.Remove(cargo);
             await _context.SaveChangesAsync();
 
             return NoContent();
