@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\obj\\Debug\\net8.0\\compressed\\kqv52q5917.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyFinanzeFront.styles.css",
+      "PackagePath": "staticwebassets\\MyFinanzeFront.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\amontals\\Documents\\OneDrive - MC PROINVEST, S.L\\Proyectos\\MyFinanze\\MyFinanzeFront\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyFinanzeFront.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyFinanzeFront.props",
+      "PackagePath": "build\\MyFinanzeFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyFinanzeFront.props",
+      "PackagePath": "buildMultiTargeting\\MyFinanzeFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyFinanzeFront.props",
+      "PackagePath": "buildTransitive\\MyFinanzeFront.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
